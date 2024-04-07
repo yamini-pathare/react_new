@@ -16,7 +16,7 @@ import {Routes, NavLink, Route}from 'react-router-dom';
         <NavLink className ="nav-link" to="/binding">Databinding</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className ="nav-link" to="/users">Users</NavLink>
+        <NavLink className ="nav-link" to="/Users">Users</NavLink>
       </li>
     </ul>
   </nav>
