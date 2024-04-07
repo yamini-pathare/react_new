@@ -3,7 +3,7 @@ function Users(){
 
     const [users,setUsers ]= useState([])
     useEffect(() => {
-        fetch('http://jsonplaceholder.typicode.com/users')
+        fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(data => {
             setUsers(data)

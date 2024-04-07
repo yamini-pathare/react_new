@@ -24,7 +24,7 @@ import {Routes, NavLink, Route}from 'react-router-dom';
   <Routes> 
     <Route path="/" element={<Jsx/>}></Route>
     <Route path="/binding" element={<Databinding/>}></Route>
-    <Route path="/binding" element={<Users/>}></Route>
+    <Route path="/Users" element={<Users/>}></Route>
   </Routes>
   </div>
 </div>
